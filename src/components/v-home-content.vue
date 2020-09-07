@@ -308,7 +308,7 @@ export default {
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .content__filter {
     width: 94% !important;
     margin: 0 auto;
@@ -317,6 +317,13 @@ export default {
     grid-template-columns: repeat(3, 1fr) !important;
     margin-bottom: 250px;
 
+    .card {
+      margin-left: 28px !important;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .content__cards {
     .card {
       margin-left: 21px !important;
     }
